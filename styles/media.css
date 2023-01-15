@@ -1,0 +1,179 @@
+@media screen and (max-width: 1230px) {
+  .banner {
+    width: 800px !important;
+  }
+  .feature-top {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .feature-bottom-right {
+    align-items: center !important;
+  }
+  .feature-bottom-right .experience {
+    position: unset !important;
+  }
+
+  .feature-bottom {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .facts {
+    align-items: center !important;
+    text-align: center !important;
+  }
+
+  .facts .facts-card {
+    justify-content: center !important;
+  }
+}
+
+@media screen and (max-width: 878px) {
+  .topbar .navbar .menubar li:not(:last-child) {
+    display: none;
+  }  
+  .topbar .navbar .menubar li:last-child {
+    display: block !important;
+  }
+  .topbar .navbar .menubar li a {
+    font-size: 20px !important;
+  }
+  .navbar {
+    margin-inline: 20px !important;
+    padding-block: 4px !important;
+  }
+  .topbar .navbar .logo {
+    font-size: 15px !important;
+  }
+  .banner {
+    width: 650px !important;
+  }
+
+  .feature-top-right {
+    text-align: center;
+  }
+  .feature-top-right h1 {
+    font-size: 25px !important;
+  }
+
+  .feature-bottom-right img {
+    width: 400px !important;
+  }
+
+  .facts .facts-card .card {
+    width: 270px !important;
+  }
+}
+@media screen and (max-width: 678px) {
+  .banner {
+    width: 550px !important;
+  }
+  .hero-section h1 {
+    font-size: 25px !important;
+  }
+  .hero-section p {
+    width: 500px !important;
+  }
+  .testimonial h2 {
+    font-size: 20px !important;
+  }
+}
+@media screen and (max-width: 614px) {
+  .banner {
+    width: 450px !important;
+    height: 200px !important;
+  }
+  .hero-section h1 {
+    font-size: 25px !important;
+  }
+  .hero-section p {
+    width: 500px !important;
+  }
+  .feature-top .feature-top-left .image-gallery {
+    width: 450px !important;
+  }
+  .feature-top .feature-top-left .image-gallery img {
+    width: 350px !important;
+    height: 350px !important;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .banner {
+    width: 350px !important;
+    height: 200px !important;
+  }
+  .hero-section h1 {
+    font-size: 15px !important;
+  }
+  .hero-section p {
+    width: 400px !important;
+  }
+
+  .feature-top .feature-top-left .image-gallery {
+    width: 250px !important;
+  }
+  .feature-top .feature-top-left .image-gallery img {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .feature-top .feature-top-right p {
+    width: 340px !important;
+  }
+  .feature-bottom-right img {
+    width: 330px !important;
+  }
+  .feature-bottom-left p {
+    width: 340px !important;
+  }
+  .feature-bottom-right .experience {
+    width: 200px !important;
+    padding: 20px !important;
+  }
+  .facts .facts-card .card {
+    width: 200px !important;
+  }
+  .facts p {
+    width: 340px !important;
+  }
+  .sponsors p {
+    width: 340px !important;
+  }
+  .sponsors-img-card .card {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 406px) {
+  .banner {
+    width: 300px !important;
+    height: 200px !important;
+  }
+  .hero-section h1 {
+    font-size: 15px !important;
+  }
+  .hero-section p {
+    width: 300px !important;
+  }
+
+  .feature-top {
+    padding-inline: 10px !important;
+  }
+  .feature-bottom-right img {
+    width: 280px !important;
+  }
+  .feature-bottom-left p {
+    width: 280px !important;
+  }
+  .feature-bottom-right .experience {
+    width: 150px !important;
+    padding: 15px !important;
+  }
+  .feature-bottom-right .experience span {
+    font-size: 20px !important;
+  }
+  .facts .facts-card .card {
+    width: 200px !important;
+  }
+  .copyright {
+    padding-inline: 20px !important;
+  }
+}
